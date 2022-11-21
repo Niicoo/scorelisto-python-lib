@@ -1,0 +1,13 @@
+name: scorelisto
+channels:
+ - anaconda
+ - conda-forge
+dependencies:
+ - python>=3.9
+ - scipy
+ - numpy
+ - lxml
+ - ipython
+ - conda-forge::librosa
+ - conda-forge::mypy
+ - conda-forge::matplotlib-base
